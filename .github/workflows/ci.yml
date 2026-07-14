@@ -24,6 +24,3 @@ jobs:
 
       - name: Verify Node app
         run: node --check backend/app.js
-    
-      - name: Break the pipeline intentionally
-        run: exit 1
